@@ -4,7 +4,8 @@ dotenv.config()
 
 const form = document.querySelector("form")
 const searchTag = document.querySelector("form input.input")
-const accessKey = `${process.env.API_KEY}`
+const accessKey = process.env.API_KEY
+console.log(accessKey)
 const apiUrl = "https://api.unsplash.com//search/photos?per_page=30&query="
 
 
