@@ -1,11 +1,11 @@
-import * as dotenv from 'dotenv'
-dotenv.config()
+// import * as dotenv from 'dotenv'
+// dotenv.config()
 
+// import apiKeyGen from "../key"
 
 const form = document.querySelector("form")
 const searchTag = document.querySelector("form input.input")
-const accessKey = process.env.API_KEY
-console.log(accessKey)
+const accessKey = 'N5vK2ZY53j9Ld9kfKzJXVt_5RbWFdIb2FJ768XIAHNU'
 const apiUrl = "https://api.unsplash.com//search/photos?per_page=30&query="
 
 
